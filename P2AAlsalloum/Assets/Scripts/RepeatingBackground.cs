@@ -12,6 +12,7 @@ public class RepeatingBackground : MonoBehaviour
     {
         groundCollider = GetComponent<BoxCollider2D>();
         groundHorizontallength = groundCollider.size.x;
+
     }
 
     // Update is called once per frame
